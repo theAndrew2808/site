@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function back() {
+            window.location.href = "../site/index.html";
+        }
+        function raw() {
+                window.location.href = "../site/sub-s/raw.html";
+            }
+    </script>
+</head>
+
+<header>
+    <button onclick="back()" class="main-button">На главную</button>
+    <button onclick="raw()" class="main-button">К сырым проектам</button>
+
+</header>
+
+<body>
+    <h1 class="box">Мои работы</h1>
+
+    <div class="box">
+        <p>Вариация MacOS Sonoma на пайтоне</p>
+        <img src="assets/MacOS%20Sonoma.png" alt="MacOS Sonoma screenshot">
+        <p>Небольшая вариация. Довольно примитивная, но рабочая. Может делать снимки с вашей вебкамеры, смотреть фото, делать заметки, смотреть календарь, слушать музыку в хорошем качестве, просматривать некоторые файлы, и устанавливать доп. приложения в своем мини-магазине</p>
+    </div>
+
+    <div class="box">
+        <p>Продвинутый текстовый редактор</p>
+        <img src="assets/Text%20editor.png" alt="Text editor screenshot">
+        <p>Неплохой текстовый редактор. Можно редактировать текст, менять размер шрифта, цвет шрифта (только для експорта в пдф), печать в пдф, вставка текущей даты и времени. Можно менять тему приложения (темная/светлая), и языки (3 встроенных по умолчанию - Русский, Украинский, и Английский). Имеет опрятный вид и простой дизайн</p>
+    </div>
+
+    <div class="box2">
+        <p>Небольшая игра в стиле Space Shooter</p>
+        <img src="assets/SpaceShooter1.png" alt="SpaceShooter main screenshot screenshot">
+        <img src="assets/SpaceShooter2.png" alt="SpaceShooter in-game screenshot screenshot">
+        <p>Небольшая примитивная игра. Надо уничтожать астероиды, и лечиться аптечками при ранении. Единственное чем можно "погордиться" ето музыка. Исходники вы можете найти
+            <a href="https://drive.google.com/drive/folders/14FF0SlbJstwngqoT28lo3hdzzs9Xg4GY?usp=sharing" target="_blank">тут.</a></p>
+    </div>
+
+    <div class="box">
+        <p>Небольшой код на пайтоне для запуска localhost-сервера майнкрафт. Имеет некоторые команды, функционал которых прописуется в самом пайтон-файле. </p>
+        <img src="assets/Server.png" alt="Minecraft server folder screenshot">
+        <p>Исходник и все файлы для запуска сервера вы найдете
+        <a href="https://drive.google.com/drive/folders/1GQemszBXviSUtaApQ8FzFtFw3yVMWDOv?usp=sharing" target="_blank">тут</a>. <b>ОБРАТИТЕ ВНИМАНИЕ! Файл Server code - написан мною. Сервер локалхост - Взят из материалов книги "Программируем с майнкрафт". Файл Server code вам надо модифицировать чтобы он работал корректно под ваши команды, т.к я писал его под свой мир и у меня в своих местах стояли командные блоки</b></p>
+        <p>Чтобы запустить сервер, скачайте все файлы по ссылке. Скачайте пайтон. Запустите Ярлык Start server. Откройте архив и запустите бат-файл для установки библиотек для пайтона. Если в cmd при запуске ярлыка Старт сервер вылетают ошибки - откройте в под-папке сервер файл start.bat через текстовый редактор, и вместо слова java укажите путь к вашей джава на компьютере. (Например C:\Users\Admin\Java\bin\java.exe)</p>
+    </div>
+
+    <div class="box">
+        <p>Моя собственно-написанная библиотека Console.</p>
+        <p>(Фото нету)</p>
+        <p>С данной библиотекой вы можете облегчить себе задачу логирования и красивого вывода в консоль. А также експорта. Синтаксис прозрачный и библиотека писалась под всех, а не под личное использование. Увы, пока что библиотеки нету на PyPi и соотвественно через пип она не скачается. Исходник вы найдете
+            <a href="https://drive.google.com/drive/folders/1Yb7HHd3DkK2V3Wzm1shMFhGZo5BMMfzW?usp=sharing">тут</a>. Прошу не плагиатить, вскоре занесу библиотеку в папи и пип и удалю исходник из общего доступа. Синтаксис библиотеки вы найдетете
+            <a href="sub-s/console-syntax.html" target="_blank">тут</a></p>
+    </div>
+
+</body>
+</html>
